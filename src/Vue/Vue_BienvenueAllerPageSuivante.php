@@ -2,7 +2,7 @@
 namespace App\Vue;
 use App\Utilitaire\Vue_Composant;
 
-class Vue_Bienvenue extends Vue_Composant
+class Vue_BienvenueAllerPageSuivante extends Vue_Composant
 {
     private string $msgErreur;
     public function __construct(string $msgErreur ="")
@@ -16,6 +16,13 @@ class Vue_Bienvenue extends Vue_Composant
 <h1>Café : J'aime !</h1>
 <div  style='    width: 50%;    display: block;    margin: auto;'>  
   Bienvenue sur le site de la société Café !
+  <form action='index.php' method='post'>
+        <input type='hidden' name='action' value='allerPageSuivante'>
+        <button type='submit' id='submit' name='action' value='allerPageSuivante' >
+            Aller à la page suivante
+        </button>
+  </form>
+  
 </div>
         $this->msgErreur
     ";
