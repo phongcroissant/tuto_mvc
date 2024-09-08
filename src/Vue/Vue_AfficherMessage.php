@@ -1,5 +1,5 @@
 <?php
-namespace App\Utilitaire;
+namespace App\Vue;
 use App\Utilitaire\Vue_Composant;
 
 class Vue_AfficherMessage extends Vue_Composant
