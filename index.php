@@ -17,20 +17,12 @@ else
 
 $Vue = new Vue();
 switch ($case) {
+    case "A":
     case "defaut":
-        switch ($action) {
-            case "allerPageSuivante":
-                $Vue->addToCorps(new Vue_BienvenueAllerPagePrecedente());
-                break;
-            case "allerPagePrecedente":
-                $Vue->addToCorps(new Vue_BienvenueAllerPageSuivante());
-                break;
-            case "defaut":
-                $Vue->addToCorps(new Vue_BienvenueAllerPageSuivante());
-                break;
-        }
+        include ".\src\Controleur\caseA.php";
         break;
-
-
+    case "B":
+        include ".\src\Controleur\caseB.php";
+        break;
 }
 $Vue->afficher();
