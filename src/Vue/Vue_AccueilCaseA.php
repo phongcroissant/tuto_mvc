@@ -20,14 +20,14 @@ class Vue_AccueilCaseA extends Vue_Composant
     Page d'accueil du contexte A
     <form action='index.php' method='post'>
             <input type='hidden' name='case' value='A'>
-            <button type='submit' name='action' value='allerPageSuivante'>
+            <button type='submit' name='action' value='pageSuivante'>
                 Aller à la page suivante
             </button>
     </form>
     
     <form action='index.php' method='post'>
             <input type='hidden' name='case' value='B'>
-            <button type='submit' name='action'' value='allerPageSuivante'>
+            <button type='submit' name='action'' value='versB'>
                 Aller vers le case B
             </button>
     </form>

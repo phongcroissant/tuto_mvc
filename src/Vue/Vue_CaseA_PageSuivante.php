@@ -20,7 +20,7 @@ class Vue_CaseA_PageSuivante extends Vue_Composant
     Page suivante du contexte A
     <form action='index.php' method='post'>
             <input type='hidden' name='case' value='A'>
-            <button type='submit' name='action' value='allerPageAccueil'>
+            <button type='submit' name='action' value='pageAccueil'>
                 Retour à l'accueil
             </button>
     </form>
