@@ -25,12 +25,7 @@ class Vue_AccueilCaseA extends Vue_Composant
             </button>
     </form>
     
-    <form action='index.php' method='post'>
-            <input type='hidden' name='case' value='B'>
-            <button type='submit' name='action'' value='versB'>
-                Aller vers le case B
-            </button>
-    </form>
+     
 </div>
         $this->msgErreur
     ";

@@ -26,12 +26,7 @@ class Vue_CaseB_PageSuivante extends Vue_Composant
     </form>
 </div>
 
- <form action='index.php' method='post'>
-            <input type='hidden' name='case' value='A'>
-            <button type='submit' name='action' value='versA'>
-                Aller vers le case A
-            </button>
-    </form>
+ 
         $this->msgErreur
     ";
         return $str ;
