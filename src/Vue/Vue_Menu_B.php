@@ -2,7 +2,6 @@
 namespace App\Vue;
 use App\Utilitaire\Vue_Composant;
 
-$Vue->setMenu(new \App\Vue\Vue_Menu_B());
 class Vue_Menu_B extends Vue_Composant
 {
     public function __construct( )

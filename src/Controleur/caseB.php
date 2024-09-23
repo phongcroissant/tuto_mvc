@@ -1,5 +1,5 @@
 <?php
-
+$Vue->setMenu(new \App\Vue\Vue_Menu_B());
 switch ($action) {
     case "defaut":
         $Vue->addToCorps(new \App\Vue\Vue_AccueilCaseB());
