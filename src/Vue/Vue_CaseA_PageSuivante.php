@@ -17,8 +17,20 @@ class Vue_CaseA_PageSuivante extends Vue_Composant
         $str= "
 <h1>Vous êtes dans le contexte A!</h1>
 <div  style='    width: 50%;    display: block;    margin: auto;'>  
-    Page suivante du contexte A
-    <form action='index.php' method='post'>
+    Calcul d'imc : 
+    <form method='post'>
+    <div class='mb-3'>
+        <label for='poids' class='form-label'>Entrez votre poids en kg</label>
+        <input type='number' class='form-control' id='poids' aria-describedby='emailHelp'>
+    </div>
+    <div class='mb-3'>
+        <label for='taille' class='form-label'>Entrez votre taille en cm</label>
+        <input type='number' class='form-control' id='taille'>
+    </div>
+    <button type='submit' class='btn btn-primary'>Calculez</button>
+    </form>
+    
+    <form method='post'>
             <input type='hidden' name='case' value='A'>
             <button type='submit' name='action' value='pageAccueil'>
                 Retour à l'accueil

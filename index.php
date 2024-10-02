@@ -1,6 +1,7 @@
 <?php
 include_once "vendor/autoload.php";
 
+use App\Utilitaire\ImcController;
 use App\Utilitaire\Vue;
 use App\Vue\Vue_BienvenueAllerPagePrecedente;
 use App\Vue\Vue_BienvenueAllerPageSuivante;
@@ -20,6 +21,7 @@ switch ($case) {
     case "A":
     case "defaut":
         include ".\src\Controleur\caseA.php";
+
         break;
     case "B":
         include ".\src\Controleur\caseB.php";

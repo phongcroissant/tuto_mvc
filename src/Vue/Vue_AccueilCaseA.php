@@ -21,10 +21,10 @@ class Vue_AccueilCaseA extends Vue_Composant
     <form action='index.php' method='post'>
             <input type='hidden' name='case' value='A'>
             <button type='submit' name='action' value='pageSuivante'>
-                Aller à la page suivante
+                Aller au calcul d'imc
             </button>
     </form>
-    
+    {echo}
      
 </div>
         $this->msgErreur
